@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 min & 5 min</title>
+    <link rel="stylesheet" href="first.css">
+    <!-- <link rel="icon" href="data:,"> -->
+</head>
+<body>
+    <div class="bigContainer">
+        <div class="timerContainer">
+            <div id="containerWork">
+                <p id="countdownWork">Work...</p>
+            </div>
+            <br>
+            <div id="containerRelax">
+                <p id="countdownRelax">Relax...</p>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h3>What do I need to get done today?</h3>
+            <input class="submit" type="text">
+            <button class="btn" type="submit">+</button>
+            <ul class="toDoContainer">
+            </ul>
+        </div>
+    </div>
+
+    <audio id="player" autoplay loop>
+        <source src="https://cdn.glitch.me/7292280b-a950-493e-bde7-487b01a98ff5/rachmaninoffPlaylist_trimmed.mp3?v=1668476285561" type="audio/mp3">
+    </audio>
+
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+        <source src="https://cdn.coverr.co/videos/coverr-paragliding-over-muriwai-beach-8776/1080p.mp4" type="video/mp4">
+    </video>
+
+    <script src="first.js"></script>
+</body>
+</html>
